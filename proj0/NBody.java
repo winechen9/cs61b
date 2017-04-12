@@ -34,6 +34,14 @@ public class NBody {
 			time += dt;
 
 			}
+
+		StdOut.printf("%d\n", planet.length);
+		StdOut.printf("%.2e\n", rads);
+		for (int i = 0; i < planet.length; i++) {
+			StdOut.printf("%11.4e %11.4e %11.4e %11.4e %11.4e %12s\n",
+   				planet[i].xxPos, planet[i].yyPos, planet[i].xxVel, planet[i].yyVel, 
+   				planet[i].mass, planet[i].imgFileName);	
+			}		
 			
 		}
 
