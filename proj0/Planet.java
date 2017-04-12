@@ -60,6 +60,7 @@ public class Planet {
 				netforce_x = netforce_x + this.calcForceExertedByX(p[i]);	
 				}	
 		}
+		
 		return netforce_x;
 	}
 	public double calcNetForceExertedByY (Planet[] p) {
